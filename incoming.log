@@ -1,0 +1,45 @@
+INCOMING: 2013-05-05
+AUDIT_SESSION=582835285
+VMODEM=/home/insulaudit/sessions/5-582835285/vmodem
+SHELL=/bin/sh
+BASE=/home/insulaudit/session
+SSH_CLIENT=139.78.79.189 47581 22
+FOO=BAR
+PHR_REPO=
+WORK_CONF=/home/insulaudit/sessions/5-582835285/conf
+WORK_REMOTE=/home/insulaudit/sessions/5-582835285/remote.git
+WORK_LOCAL=/home/insulaudit/sessions/5-582835285/local
+BRANCH=audit/2013-05-05-5-582835285
+USER=insulaudit
+AUDIT_USER=ehwest
+SESSION_CONFIG=/home/insulaudit/sessions/5-582835285/conf/audit.config
+MAIL=/var/mail/insulaudit
+PATH=/home/insulaudit/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PWD=/home/insulaudit
+LANG=en_US.UTF-8
+HOME=/home/insulaudit
+SHLVL=2
+SSH_ORIGINAL_COMMAND=audit 582835285 5
+LOGNAME=insulaudit
+SSH_CONNECTION=139.78.79.189 47581 10.170.185.103 22
+AUDIT_UID=5
+WORK_BASE=/home/insulaudit/sessions/5-582835285
+SESS_KEY=5-582835285
+AUDIT_TOOL=audit
+_=/usr/bin/env
+mini.py /home/insulaudit/sessions/5-582835285/vmodem
+No handlers could be found for logger "insulaudit.io"
+is open? True
+ timeout: 0.5
+Traceback (most recent call last):
+  File "/home/insulaudit/bin/mini.py", line 59, in <module>
+    port = init()
+  File "/home/insulaudit/bin/mini.py", line 28, in init
+    mini.disconnect( )
+  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 121, in disconnect
+    self.__retry_write_with_ack__( msg, RETRIES )
+  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 134, in __retry_write_with_ack__
+    self.__ack__ = self.__requireAck__( )
+  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 157, in __requireAck__
+    raise MissingAck(i)
+insulaudit.devices.lsultramini.MissingAck: 2
