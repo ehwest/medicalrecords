@@ -1,0 +1,45 @@
+INCOMING: 2013-05-05
+VMODEM: /home/insulaudit/sessions/5-972068694/vmodem
+AUDIT_SESSION=972068694
+VMODEM=/home/insulaudit/sessions/5-972068694/vmodem
+SHELL=/bin/sh
+BASE=/home/insulaudit/session
+SSH_CLIENT=32.132.61.34 52524 22
+FOO=BAR
+PHR_REPO=
+WORK_CONF=/home/insulaudit/sessions/5-972068694/conf
+WORK_REMOTE=/home/insulaudit/sessions/5-972068694/remote.git
+WORK_LOCAL=/home/insulaudit/sessions/5-972068694/local
+BRANCH=audit/2013-05-05-5-972068694
+USER=insulaudit
+AUDIT_USER=ehwest
+SESSION_CONFIG=/home/insulaudit/sessions/5-972068694/conf/audit.config
+MAIL=/var/mail/insulaudit
+PATH=/home/insulaudit/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PWD=/home/insulaudit
+LANG=en_US.UTF-8
+HOME=/home/insulaudit
+SHLVL=2
+SSH_ORIGINAL_COMMAND=audit 972068694 5
+LOGNAME=insulaudit
+SSH_CONNECTION=32.132.61.34 52524 10.170.185.103 22
+AUDIT_UID=5
+WORK_BASE=/home/insulaudit/sessions/5-972068694
+SESS_KEY=5-972068694
+AUDIT_TOOL=audit
+_=/usr/bin/env
+mini.py /home/insulaudit/sessions/5-972068694/vmodem
+is open? True
+ timeout: 0.5
+Initial DISCONNECT
+GETTING FIRMWARE INFO
+FIRMWARE IS: P02.00.0025/05/07
+
+read serial number
+serial number: CMZA47CCR
+
+number of available records:
+max records: 0
+
+all records
+total records found:0
