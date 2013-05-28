@@ -3,7 +3,7 @@ AUDIT_SESSION=1360553446
 VMODEM=/home/insulaudit/sessions/5-1360553446/vmodem
 SHELL=/bin/sh
 BASE=/home/insulaudit/session
-SSH_CLIENT=24.188.106.65 54583 22
+SSH_CLIENT=24.188.106.65 54585 22
 FOO=BAR
 PHR_REPO=
 WORK_CONF=/home/insulaudit/sessions/5-1360553446/conf
@@ -21,14 +21,13 @@ HOME=/home/insulaudit
 SHLVL=2
 SSH_ORIGINAL_COMMAND=audit 1360553446 5
 LOGNAME=insulaudit
-SSH_CONNECTION=24.188.106.65 54583 10.170.185.103 22
+SSH_CONNECTION=24.188.106.65 54585 10.170.185.103 22
 AUDIT_UID=5
 WORK_BASE=/home/insulaudit/sessions/5-1360553446
 SESS_KEY=5-1360553446
 AUDIT_TOOL=audit
 _=/usr/bin/env
 mini.py --output /home/insulaudit/sessions/5-1360553446/sugars.txt /home/insulaudit/sessions/5-1360553446/vmodem
-No handlers could be found for logger "insulaudit.io"
 is open? True
  timeout: 0.5
 Initial DISCONNECT
@@ -53,17 +52,5 @@ record: 3
 record: 4
 2013-05-18T15:48:21	95
 record: 5
-Traceback (most recent call last):
-  File "/home/insulaudit/bin/mini.py", line 73, in <module>
-    port = init(args)
-  File "/home/insulaudit/bin/mini.py", line 50, in init
-    r = mini.execute( lsultramini.ReadGlucoseRecord(idx=x ) )
-  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 190, in execute
-    r = self.__send__require_ack__( command )
-  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 173, in __send__require_ack__
-    return self.__retry_write_with_ack__( msg, RETRIES )
-  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 134, in __retry_write_with_ack__
-    self.__ack__ = self.__requireAck__( )
-  File "/home/bewest/src/insulaudit/src/insulaudit/devices/lsultramini.py", line 157, in __requireAck__
-    raise MissingAck(i)
-insulaudit.devices.lsultramini.MissingAck: 2
+2013-05-18T15:12:40	90
+total records found:6
