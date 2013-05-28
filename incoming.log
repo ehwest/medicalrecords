@@ -1,15 +1,15 @@
-INCOMING: 2013-05-05
+INCOMING: 2013-05-28
 AUDIT_SESSION=1360553446
 VMODEM=/home/insulaudit/sessions/5-1360553446/vmodem
 SHELL=/bin/sh
 BASE=/home/insulaudit/session
-SSH_CLIENT=139.78.79.189 34926 22
+SSH_CLIENT=24.188.106.65 54563 22
 FOO=BAR
 PHR_REPO=
 WORK_CONF=/home/insulaudit/sessions/5-1360553446/conf
 WORK_REMOTE=/home/insulaudit/sessions/5-1360553446/remote.git
 WORK_LOCAL=/home/insulaudit/sessions/5-1360553446/local
-BRANCH=audit/2013-05-05-5-1360553446
+BRANCH=audit/2013-05-28-5-1360553446
 USER=insulaudit
 AUDIT_USER=ehwest
 SESSION_CONFIG=/home/insulaudit/sessions/5-1360553446/conf/audit.config
@@ -21,13 +21,13 @@ HOME=/home/insulaudit
 SHLVL=2
 SSH_ORIGINAL_COMMAND=audit 1360553446 5
 LOGNAME=insulaudit
-SSH_CONNECTION=139.78.79.189 34926 10.170.185.103 22
+SSH_CONNECTION=24.188.106.65 54563 10.170.185.103 22
 AUDIT_UID=5
 WORK_BASE=/home/insulaudit/sessions/5-1360553446
 SESS_KEY=5-1360553446
 AUDIT_TOOL=audit
 _=/usr/bin/env
-mini.py /home/insulaudit/sessions/5-1360553446/vmodem
+mini.py --output /home/insulaudit/sessions/5-1360553446/sugars.txt /home/insulaudit/sessions/5-1360553446/vmodem
 is open? True
  timeout: 0.5
 Initial DISCONNECT
@@ -35,10 +35,22 @@ GETTING FIRMWARE INFO
 FIRMWARE IS: P02.00.0025/05/07
 
 read serial number
-serial number: CMZA47CCR
+serial number: DLG8224ER
 
 number of available records:
-max records: 0
+max records: 6
 
 all records
-total records found:0
+record: 0
+2013-05-22T17:43:18	164
+record: 1
+2013-05-22T03:39:03	96
+record: 2
+2013-05-20T16:45:20	170
+record: 3
+2013-05-18T18:02:27	176
+record: 4
+2013-05-18T15:48:21	95
+record: 5
+2013-05-18T15:12:40	90
+total records found:6
