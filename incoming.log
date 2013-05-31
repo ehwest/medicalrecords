@@ -1,0 +1,64 @@
+INCOMING: 2013-05-31
+AUDIT_SESSION=1810336125
+VMODEM=/home/insulaudit/sessions/3-1810336125/vmodem
+SHELL=/bin/sh
+BASE=/home/insulaudit/session
+SSH_CLIENT=166.194.216.81 38321 22
+FOO=BAR
+PHR_REPO=
+WORK_CONF=/home/insulaudit/sessions/3-1810336125/conf
+WORK_REMOTE=/home/insulaudit/sessions/3-1810336125/remote.git
+WORK_LOCAL=/home/insulaudit/sessions/3-1810336125/local
+BRANCH=audit/2013-05-31-3-1810336125
+USER=insulaudit
+AUDIT_USER=ehwest
+SESSION_CONFIG=/home/insulaudit/sessions/3-1810336125/conf/audit.config
+MAIL=/var/mail/insulaudit
+PATH=/home/insulaudit/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PWD=/home/insulaudit
+LANG=en_US.UTF-8
+HOME=/home/insulaudit
+SHLVL=2
+SSH_ORIGINAL_COMMAND=audit 1810336125 3
+LOGNAME=insulaudit
+SSH_CONNECTION=166.194.216.81 38321 10.170.185.103 22
+AUDIT_UID=3
+WORK_BASE=/home/insulaudit/sessions/3-1810336125
+SESS_KEY=3-1810336125
+AUDIT_TOOL=audit
+_=/usr/bin/env
+mini.py --output /home/insulaudit/sessions/3-1810336125/sugars.txt /home/insulaudit/sessions/3-1810336125/vmodem
+is open? True
+ timeout: 0.5
+Initial DISCONNECT
+GETTING FIRMWARE INFO
+FIRMWARE IS: P02.00.0025/05/07
+
+read serial number
+serial number: DLG8224ER
+
+number of available records:
+max records: 10
+
+all records
+record: 0
+2013-05-30T11:38:10	95
+record: 1
+2013-05-30T10:45:43	120
+record: 2
+2013-05-29T22:30:11	220
+record: 3
+2013-05-28T23:44:50	175
+record: 4
+2013-05-22T17:43:18	164
+record: 5
+2013-05-22T03:39:03	96
+record: 6
+2013-05-20T16:45:20	170
+record: 7
+2013-05-18T18:02:27	176
+record: 8
+2013-05-18T15:48:21	95
+record: 9
+2013-05-18T15:12:40	90
+total records found:10
